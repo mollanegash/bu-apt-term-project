@@ -97,4 +97,3 @@ This project is licensed under the **MIT License**.
 ---
 
 
-This is now cleaner and more concise. Let me know if you'd like to further adjust anything!
