@@ -1,99 +1,104 @@
+# **BU MET CS622: Advanced Programming Techniques - Term Project**
 
-```markdown
-# BU MET CS622: Advanced Programming Techniques - Term Project
+## **Project Title: Shopping Management System (Knowla / K-Grade Series)**
 
-## Project Title: Shopping Management System (Knowla / K-Grade Series)
-
-### Author: Molla Negash
+**Author:** Molla Negash
 
 ---
 
-## 📜 Project Description
+### **Project Description**
 
-This project is part of Boston University’s **CS622 Advanced Programming Techniques** course. Over the course of six assignments, this project evolved from a simple shopping list manager (Assignment 1) to a robust, multi-functional Java application that integrates core OOP concepts, JUnit testing, and database interaction.
+This project is part of Boston University’s **CS622 Advanced Programming Techniques** course. The system has evolved through six assignments, starting from a basic shopping list manager (Assignment 1) to a comprehensive Java application. It incorporates object-oriented programming (OOP) principles, JUnit testing, and database interactions.
 
-The system manages purchased and unpurchased items, performs cost calculations, prioritizes purchases, and connects to a relational database. The final version includes:
+The Shopping Management System manages items, calculates costs, prioritizes purchases, and integrates with a relational database for data storage. It includes the following key features:
 
-- **Abstract Class** and polymorphic behavior
-- **Inheritance** and upcasting/downcasting
-- **JUnit** test coverage
-- **Eclipse**-compatible structure
-
----
-
-## 🧠 System Summary
-
-- **Abstract Concept**: Differentiates cost logic between purchased and unpurchased items via an abstract method.
-- **Polymorphism**: Used for displaying item types and calculating totals dynamically.
-- **File Operations**: Handles data input/output via file streams.
-- **Database**: Stores shopping data in a `.db` relational database format.
-- **Testing**: JUnit tests verify logic for key functionalities.
+* **Abstract Classes** and polymorphic behavior
+* **Inheritance** (upcasting and downcasting)
+* **JUnit Test Coverage**
+* Eclipse-compatible project structure
 
 ---
 
-## 💡 Features
+### **System Overview**
 
-- Accepts shopping input (item name, quantity, price, customer, priority)
-- Prevents duplicate item entries
-- Verifies customer bank balance before purchase
-- Lists purchased and unpurchased items separately
-- Automatically deducts the total cost from the balance
-- Saves and loads data from a file for persistence
-- Provides a CLI-based shopping simulation for user interaction
+* **Abstract Concept:** Implements an abstract class for differentiating the cost logic of purchased and unpurchased items.
+* **Polymorphism:** Used for dynamically displaying item types and calculating totals.
+* **File Operations:** Manages data input/output through file streams.
+* **Database Integration:** Stores shopping data in a `.db` relational database format.
+* **Testing:** JUnit tests ensure correct functionality of major system features.
 
 ---
 
-## 🧪 JUnit Test Coverage
+### **Key Features**
 
-Unit tests are written for:
-- Total cost calculation
-- Bank balance verification
-- Purchase decision logic
+* **Shopping Input:** Accepts item details like name, quantity, price, customer, and priority.
+* **Duplicate Prevention:** Ensures that no duplicate items are added.
+* **Bank Balance Check:** Verifies that the customer has sufficient funds before purchase.
+* **Item Listing:** Differentiates between purchased and unpurchased items.
+* **Cost Deduction:** Automatically deducts the total purchase cost from the bank balance.
+* **Persistence:** Saves and loads shopping data from files to ensure persistence.
+* **CLI Simulation:** Provides a command-line interface to simulate shopping actions.
 
 ---
 
-## 📂 Directory Structure
+### **JUnit Test Coverage**
 
-```
+Unit tests were written for the following key features:
 
+* **Total Cost Calculation**
+* **Bank Balance Verification**
+* **Purchase Decision Logic**
+
+These tests ensure that the system works as expected and handles various scenarios.
+
+---
+
+### **Directory Structure**
+
+```plaintext
 bu-apt-term-project-main/
 └── cs622met 2/
-├── src/
-│   └── cs622met/
-│       ├── *.java               # Core source files
-│       ├── shopping.db          # Sample database
-│       └── shoppinglist.txt     # Sample file output
-└── .idea/                       # IntelliJ project files
+    ├── src/
+    │   └── cs622met/
+    │       ├── *.java               # Core source files
+    │       ├── shopping.db          # Sample database file
+    │       └── shoppinglist.txt     # Sample output file
+    └── .idea/                       # IntelliJ project files
 .idea/
 LICENSE
 README.md
-
 ```
 
 ---
 
-## ▶️ How to Run
+### **How to Run**
 
 1. Open the project in **Eclipse** or **IntelliJ** IDE.
 2. Ensure that **Java 8+** and **JUnit** are installed and configured.
-3. Run `MainShopping.java` to start the application.
-4. JUnit tests can be executed from the test classes using the JUnit Test Runner.
+3. Run the `MainShopping.java` class to start the application.
+4. JUnit tests can be executed from the test classes using the **JUnit Test Runner**.
 
 ---
 
-## 📝 Assignment Breakdown
+### **Assignment Breakdown**
 
-- **Assignment 1**: Base shopping system with CLI interface, abstract logic.
-- **Assignment 2–5**: Feature enhancements, UI improvements, database connection, exception handling.
-- **Assignment 6**: Final submission with GitHub repo, comprehensive README, and all documentation.
+* **Assignment 1:** Basic shopping system with CLI interface and abstract logic.
+* **Assignments 2–5:** Feature additions, UI improvements, database connection, exception handling.
+* **Assignment 6:** Final submission with GitHub repository, a comprehensive README, and all necessary documentation.
 
 ---
 
-## 📜 License
+### **License**
 
 This project is licensed under the **MIT License**.
-```
 
 ---
 
+### **Notes**
 
+* All required output, documentation, screenshots, and diagrams are included in the repository.
+* The project is structured for easy integration into IDEs like **Eclipse** or **IntelliJ**.
+
+---
+
+This format provides clearer sections and more structured information, making it easier to read and follow. Let me know if you'd like any more changes!
