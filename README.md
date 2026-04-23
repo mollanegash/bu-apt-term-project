@@ -100,5 +100,3 @@ This project is licensed under the **MIT License**.
 * The project is structured for easy integration into IDEs like **Eclipse** or **IntelliJ**.
 
 ---
-
-This format provides clearer sections and more structured information, making it easier to read and follow. Let me know if you'd like any more changes!
